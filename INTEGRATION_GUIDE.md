@@ -17,13 +17,13 @@
 在你的项目 `go.mod` 中添加：
 
 ```
-require gptutils v0.1.0
+require github.com/lvdashuaibi/GPTUtils v0.1.0
 ```
 
 或使用 go get：
 
 ```bash
-go get github.com/yourusername/gptutils@latest
+go get github.com/lvdashuaibi/GPTUtils@latest
 ```
 
 ### 步骤 2: 设置环境变量
@@ -518,7 +518,8 @@ req := gptutils.ChatRequest{
 - 📖 [SDK 详细文档](./SDK_USAGE.md)
 - 📚 [项目 README](./README.md)
 - 🔗 [官方 API 文档](https://help.aliyun.com/zh/model-studio/developer-reference/qwen-api)
-- 💬 提交 Issue 或 Pull Request
+- 🐛 [GitHub Issues](https://github.com/lvdashuaibi/GPTUtils/issues)
+- 💬 [GitHub Discussions](https://github.com/lvdashuaibi/GPTUtils/discussions)
 
 ## 许可证
 

@@ -31,13 +31,13 @@ go mod download
 在你的项目中引入：
 
 ```bash
-go get github.com/yourusername/gptutils@latest
+go get github.com/lvdashuaibi/GPTUtils@latest
 ```
 
 或在 `go.mod` 中添加：
 
 ```
-require gptutils v0.1.0
+require github.com/lvdashuaibi/GPTUtils v0.1.0
 ```
 
 ## 🚀 快速开始

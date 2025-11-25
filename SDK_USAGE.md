@@ -27,7 +27,7 @@ use (
 如果 GPTUtils 发布到 GitHub 或其他 Git 仓库：
 
 ```bash
-go get github.com/yourusername/gptutils@latest
+go get github.com/lvdashuaibi/GPTUtils@latest
 ```
 
 ## 快速开始

@@ -305,8 +305,9 @@ require gptutils v0.1.0
 ## 📞 支持
 
 - 📖 [官方 API 文档](https://help.aliyun.com/zh/model-studio/developer-reference/qwen-api)
-- 🐛 [提交 Issue](https://github.com/yourusername/gptutils/issues)
-- 💬 [讨论区](https://github.com/yourusername/gptutils/discussions)
+- 🐛 [提交 Issue](https://github.com/lvdashuaibi/GPTUtils/issues)
+- 💬 [讨论区](https://github.com/lvdashuaibi/GPTUtils/discussions)
+- 🔗 [GitHub 仓库](https://github.com/lvdashuaibi/GPTUtils)
 
 ## 📄 许可证
 
