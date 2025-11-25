@@ -3,8 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"gptutils"
 	"log"
+
+	gptutils "github.com/lvdashuaibi/GPTUtils"
 )
 
 // 这个示例演示如何在其他项目中集成 GPTUtils SDK

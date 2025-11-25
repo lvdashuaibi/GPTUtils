@@ -9,30 +9,29 @@
 //	import (
 //		"context"
 //		"fmt"
-//		"github.com/lvdashuaibi/GPTUtils/client"
-//		"github.com/lvdashuaibi/GPTUtils/config"
+//		"github.com/lvdashuaibi/GPTUtils"
 //	)
 //
 //	func main() {
-//		// 创建配置
-//		cfg := config.DefaultConfig()
-//
 //		// 创建客户端
-//		c := client.NewHTTPClient(cfg)
+//		client := gptutils.NewDefaultClient()
 //
 //		// 简单对话
 //		ctx := context.Background()
-//		response, _ := c.SimpleChat(ctx, "你好")
+//		response, _ := client.SimpleChat(ctx, "你好")
 //		fmt.Println(response)
 //	}
 //
 // 更多示例请参考 examples/ 目录
-package github.com/lvdashuaibi/GPTUtils
+package gptutils
 
 import (
 	"github.com/lvdashuaibi/GPTUtils/client"
 	"github.com/lvdashuaibi/GPTUtils/config"
 )
+
+// HTTPClient 导出HTTP客户端类型
+type HTTPClient = client.HTTPClient
 
 // NewClient 创建新的通义千问客户端
 // 这是推荐的创建客户端的方式
