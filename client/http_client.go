@@ -6,7 +6,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"gptutils/config"
+	"github.com/lvdashuaibi/GPTUtils/config"
 	"io"
 	"net/http"
 	"strings"

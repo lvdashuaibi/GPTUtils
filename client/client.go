@@ -2,7 +2,7 @@ package client
 
 import (
 	"context"
-	"gptutils/config"
+	"github.com/lvdashuaibi/GPTUtils/config"
 
 	"github.com/openai/openai-go"
 	"github.com/openai/openai-go/option"

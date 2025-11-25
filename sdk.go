@@ -9,8 +9,8 @@
 //	import (
 //		"context"
 //		"fmt"
-//		"gptutils/client"
-//		"gptutils/config"
+//		"github.com/lvdashuaibi/GPTUtils/client"
+//		"github.com/lvdashuaibi/GPTUtils/config"
 //	)
 //
 //	func main() {
@@ -27,11 +27,11 @@
 //	}
 //
 // 更多示例请参考 examples/ 目录
-package gptutils
+package github.com/lvdashuaibi/GPTUtils
 
 import (
-	"gptutils/client"
-	"gptutils/config"
+	"github.com/lvdashuaibi/GPTUtils/client"
+	"github.com/lvdashuaibi/GPTUtils/config"
 )
 
 // NewClient 创建新的通义千问客户端

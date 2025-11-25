@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"gptutils/client"
-	"gptutils/config"
+	"github.com/lvdashuaibi/GPTUtils/client"
+	"github.com/lvdashuaibi/GPTUtils/config"
 	"log"
 )
 

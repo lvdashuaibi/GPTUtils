@@ -1,4 +1,4 @@
-module gptutils
+module github.com/lvdashuaibi/GPTUtils
 
 go 1.24
 
